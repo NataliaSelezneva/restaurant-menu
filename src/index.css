@@ -1,13 +1,50 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #453e3e;
+  font-family: 'Ubuntu', sans-serif;
+}
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+.block{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+img{
+  width: 500px;
+}
+.cart-icon{
+  width: 50px;
+}
+.categoryButton:hover{
+  background-color: #fdeb6d;
+}
+.categoryButtonSelected{
+  background-color: green;
+}
+.icon{
+  width: 20px;
+}
+.button{
+  background-color: #fdeb6d;
+  border: none;
+  width: 25px;
+  height: 25px;
+  font-weight: 500;
+  margin: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.burronAddCart{
+  background-color: green;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media all and (max-width: 800px) {
+  img{
+    width: 170px;
+  }
 }

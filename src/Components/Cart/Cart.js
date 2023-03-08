@@ -11,7 +11,7 @@ const Cart = () =>{
         <div>
             <img className="cart-icon" src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-shopping-cart-cyber-monday-xnimrodx-lineal-color-xnimrodx.png" alt="cart" /> 
             <h3>Total: $ {totalPrice}</h3>
-            {cartItems.map((cartItem, id) => <CartItem cartItem={cartItem} key={id} /> )}
+            {cartItems.map((cartItem) => <CartItem cartItem={cartItem} key={cartItem.id} /> )}
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { removeItemFromCart } from '../../Redux/cartSlice';
+import icon from './delete.png'
 
 const CartItem = ({cartItem}) => {
 
@@ -10,7 +11,7 @@ const CartItem = ({cartItem}) => {
             <p>Price: $ {cartItem.price * cartItem.quantity}</p>
             <p>{cartItem.quantity} portion(s)</p>
             <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
-            <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" alt='cartDelete' /> 
+            <img className="icon" src={icon} alt='cartDelete' /> 
             </span>
         </div>
     )

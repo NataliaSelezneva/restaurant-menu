@@ -16,7 +16,7 @@ const handleClick = () => {
 
     return(
         <div>
-            <img src={`${dish.img}.webp`} alt='food' />
+            <img src={`${dish.img}.jpg`} alt='food' />
             <h2>{dish.name}</h2>
             <p>$ {dish.price}</p>
             <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>

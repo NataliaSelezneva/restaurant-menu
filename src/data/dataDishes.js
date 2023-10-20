@@ -26,50 +26,50 @@ const dishesData = [
 
     id: 4,
     price: 40,
-    img: 'baked-salmon',
-    name: 'Baked Salmon',
+    img: 'mussels',
+    name: 'Mussels',
     category: 'SEAFOOD'
 },
 {
     id: 5,
     price: 15,
-    img: 'cheese-balls',
-    name: 'Cheese balls',
+    img: 'cheese-plate',
+    name: 'Сheese plate',
     category: 'APPETIZERS'
 },
 {
     id: 6,
     price: 20,
-    img: 'easy-pasta',
-    name: 'Easy Pasta',
+    img: 'bruschetta',
+    name: 'Bruschetta',
     category: 'ITALIAN'
 },
 {
     id: 7,
     price: 25,
-    img: 'spag-tomato',
-    name: 'Spaghetti',
+    img: 'risotto',
+    name: 'Risotto',
     category: 'ITALIAN'
 },
 {
     id: 8,
     price: 20,
-    img: 'mixed-pizza',
+    img: 'pizza',
     name: 'Pizza',
     category: 'ITALIAN'
 },
 {
     id: 9,
     price: 20,
-    img: 'spring-rolls',
-    name: 'Spring Rolls',
+    img: 'crackers',
+    name: 'Crackers',
     category: 'APPETIZERS'
 },
 {
     id: 10,
     price: 15,
-    img: 'tomato-salad',
-    name: 'Tomato Salad',
+    img: 'avocado',
+    name: 'Avocado salad',
     category: 'SALADS'
 },
 {
@@ -78,7 +78,32 @@ const dishesData = [
     img: 'feta',
     name: 'Feta Salad',
     category: 'SALADS'
+},
+
+{
+    id: 14,
+    price: 20,
+    img: 'crabs',
+    name: 'Crabs',
+    category: 'SEAFOOD'
+}, 
+
+{
+    id: 15,
+    price: 5,
+    img: 'cake',
+    name: 'Chocolate muffin',
+    category: 'DESSERT'
+},
+
+{
+    id: 15,
+    price: 5,
+    img: 'strawberry-dessert',
+    name: 'Strawberry-dessert',
+    category: 'DESSERT'
 }
+
 
 ] 
 

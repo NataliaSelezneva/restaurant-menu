@@ -1,46 +1,64 @@
 body {
-  background-color: #453e3e;
-  font-family: 'Ubuntu', sans-serif;
+  background-color: #B55400;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Manrope', sans-serif;
 }
 .App {
   display: flex;
   justify-content: space-around;
 }
 .block{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(34, 40, 49);
   padding: 20px;
+  color: bisque;
+  border-radius: 10px;
 }
 img{
   width: 500px;
+  border-radius: 10px;
 }
 .cart-icon{
   width: 50px;
 }
 .categoryButton:hover{
-  background-color: #fdeb6d;
+  background-color: #1F441E;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
 }
 .categoryButtonSelected{
-  background-color: green;
+  background-color: #B55400;
+  border-radius: 5px;
+  padding: 5px;
 }
 .icon{
   width: 20px;
 }
 .button{
-  background-color: #fdeb6d;
+  background-color: #B55400;
   border: none;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   font-weight: 500;
   margin: 5px;
   font-family: 'Ubuntu', sans-serif;
+  color: bisque;
+  border-radius: 5px;
 }
 .burronAddCart{
-  background-color: green;
+  background-color: #1F441E;
+  color: bisque;
   border: none;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
-  width: 100px;
+  width: 200px;
+  border-radius: 5px;
   font-family: 'Ubuntu', sans-serif;
+}
+.total{
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 @media all and (max-width: 800px) {
